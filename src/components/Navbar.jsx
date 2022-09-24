@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="w-full bg-black text-white fixed">
       <div className="h-20 px-4 container mx-auto flex justify-between items-center">
         <div className='z-10'>
-          <h1 className="md:text-3xl text-2xl  font-bold">◄►</h1>
+          <h1 className="md:text-3xl text-xl font-bold">MiguelWeb</h1>
         </div>
         <ul className={`md:flex md:static md:gap-12 md:pt-0 md:w-max md:h-max fixed top-0 left-0 w-full h-screen text-center pt-32 bg-black opacity-90 ${open ? "" : "hidden"}`}>
           {links.map((link) => (
