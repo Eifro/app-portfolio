@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section id="home" className="w-full h-screen flex items-center">
       <div className='container mx-auto flex px-20'>
-        <div className='flex-1 object-cover flex justify-center'>
+        <div className='md:-z-10 flex-1 object-cover flex justify-center'>
           <img src={HeroImg} alt="HeroImage" className='w-4/6 h-max rounded-xl contrast-125 brightness-110' />
         </div>
         <div className='flex flex-col gap-2 justify-center'>
