@@ -1,4 +1,5 @@
 import HeroImg from '../assets/img/hero.jpg';
+import CV from '../assets/docs/CV-ACTUAL.pdf';
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
         <div className='flex flex-col gap-2 justify-center'>
           <h1 className='lg:text-4xl font-bold'>Frontend Developer</h1>
           <h2 className='lg:text-lg font-medium'>Entusiasta TI enfocado en el Frontend haciendo uso de las tecnologías actuales.</h2>
-          <a href="" className='w-32 bg-emerald-500 font-bold text-center p-2 rounded hover:scale-105 duration-300'>Download CV</a>
+          <a href={CV} download className='w-32 bg-emerald-500 font-bold text-center p-2 rounded hover:scale-105 duration-300'>Download CV</a>
         </div>
       </div>
       <div id='scroll-down' className='h-12 w-8 border-2 absolute left-2/4 bottom-10 rounded-2xl cursor-pointer'></div>
