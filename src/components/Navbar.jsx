@@ -25,7 +25,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <div className="w-full fixed">
+    <div className="w-full fixed z-50">
       <nav className={`md:py-0 py-4 flex justify-between items-center transition ease-linear ${sticky ? 'bg-white/70 text-gray-900' : 'text-white'}`}>
         <div className="mx-4">
           <h1 className="md:text-3xl lg:text-4xl text-2xl font-bold">

@@ -57,11 +57,11 @@ const Skills = () => {
         </div>
         <div className='flex justify-center items-center gap-20'>
           <div className="tagcloud-front w-min font-bold text-lg"></div>
-          <div className='w-4/12 h-16 bg-emerald-500 flex justify-center items-center rounded shadow-white shadow tracking-wider'>
+          <div className='w-96 h-16 bg-emerald-500 flex justify-center items-center rounded shadow-white shadow tracking-wider'>
             <p className='font-bold text-xl'>FRONTEND</p>
           </div>
           <div className='shadow-gray-800 shadow-md rounded-md p-4'>
-            <ul className='ul-front relative flex flex-1 flex-wrap justify-center gap-10'>
+            <ul className='ul-front relative flex flex-wrap justify-center gap-10'>
               {
                 iconsFront.map((icon, key) => (
                   <li onMouseMove={moveIndicatorFront} key={key} className='opacity-50 hover:opacity-100 backdrop-blur z-10'>{icon}</li>
@@ -73,7 +73,7 @@ const Skills = () => {
         </div>
         <div className='flex justify-center items-center gap-20'>
           <div className="tagcloud-back w-min font-bold text-lg"></div>
-          <div className='w-4/12 h-16 bg-emerald-500 flex justify-center items-center rounded shadow-white shadow tracking-wider'>
+          <div className='w-80 h-16 bg-emerald-500 flex justify-center items-center rounded shadow-white shadow tracking-wider'>
             <p className='font-bold text-xl'>BACKEND</p>
           </div>
           <div className='shadow-gray-800 shadow-md rounded-md p-4'>
@@ -83,7 +83,7 @@ const Skills = () => {
                   <li onMouseMove={moveIndicatorBack} key={key} className='opacity-50 hover:opacity-100 backdrop-blur z-10'>{icon}</li>
                 ))
               }
-              <div id='marker' ref={markerBack} className='absolute  left-8 transition duration-75 z-1 marker-before'></div>
+              <div id='marker' ref={markerBack} className='absolute left-10 transition duration-75 z-1 marker-before'></div>
             </ul>
           </div>
         </div>
