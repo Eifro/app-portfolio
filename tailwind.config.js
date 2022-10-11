@@ -7,7 +7,6 @@ const Class = plugin(function({ addUtilities }) {
       content: "''",
       position: 'absolute',
       top: '-10px',
-      left: '15%',
       transform: 'translateX(-50%)',
       width: '50px',
       height: '40px',
