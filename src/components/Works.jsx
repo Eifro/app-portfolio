@@ -41,7 +41,7 @@ const Works = () => {
         <div className="grid grid-cols-2 gap-12">
           {
             works.map((work, key) => (
-              <div key={key} className='bg-white text-gray-900 p-4 rounded-xl'>
+              <div key={key} className='bg-slate-200 text-gray-900 p-4 rounded-xl'>
                 <figure className="overflow-hidden">
                   <img src={work.img} alt={work.name} className='w-5/6 h-72 mx-auto rounded-md hover:scale-110 transition ease-in duration-300' />
                 </figure>
