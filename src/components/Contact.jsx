@@ -4,7 +4,7 @@ import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from 'react-ic
 const Contact = () => {
   return (
     <div className="w-full">
-      <div className="container mx-auto px-4 py-20">
+      <div className="container mx-auto px-4 py-10">
         <div className='mb-16'>
           <h1 className='w-2/4 text-center mx-auto py-2 text-2xl rounded font-bold bg-white text-gray-900'>CONTACT</h1>
         </div>
@@ -44,11 +44,11 @@ const Contact = () => {
             <form action="" className='text-white font-bold'>
               <div className='relative mb-3'>
                 <AiOutlineUser size={25} className='absolute left-2 top-2' color='white' />
-                <input type="text" autocomplete='nope' placeholder='Full Name' className='w-full px-10 py-2 outline-none bg-transparent rounded border placeholder:text-white' />
+                <input type="text" autoComplete='nope' placeholder='Full Name' className='w-full px-10 py-2 outline-none bg-transparent rounded border placeholder:text-white' />
               </div>
               <div className='relative mb-3'>
                 <HiOutlineMail size={25} className='absolute left-2 top-2' color='white' />
-                <input type="email" autocomplete='nope' placeholder='Email' className='w-full px-10 py-2 outline-none bg-transparent rounded border placeholder:text-white' />
+                <input type="email" autoComplete='nope' placeholder='Email' className='w-full px-10 py-2 outline-none bg-transparent rounded border placeholder:text-white' />
               </div>
               <div className='relative mb-3'>
                 <AiOutlineMessage size={25} className='absolute left-2 top-2' color='white' />
