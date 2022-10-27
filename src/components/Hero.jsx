@@ -1,5 +1,6 @@
 import HeroImg from '../assets/img/hero.jpg';
 import CV from '../assets/docs/CV-ACTUAL.pdf';
+import { Link } from 'react-scroll'
 
 const Hero = () => {
   return (
@@ -14,7 +15,7 @@ const Hero = () => {
           <a href={CV} download className='w-32 bg-emerald-500 font-bold text-center p-2 rounded hover:scale-105 duration-300'>Download CV</a>
         </div>
       </div>
-      <div id='scroll-down' className='h-12 w-8 border-2 absolute left-2/4 bottom-10 rounded-2xl cursor-pointer'></div>
+      <Link to={'experience'} smooth={true} id='scroll-down' className='h-12 w-8 border-2 absolute left-2/4 bottom-10 rounded-2xl cursor-pointer'></Link>
     </section>
   )
 }

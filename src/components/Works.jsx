@@ -33,7 +33,7 @@ const Works = () => {
   ]
 
   return (
-    <div className="w-full">
+    <div id='works' className="w-full">
       <div className="container mx-auto px-4 py-20">
         <div className='mb-16'>
             <h1 className='w-2/4 text-center mx-auto py-2 text-2xl rounded font-bold bg-white text-gray-900'>WORKS</h1>

@@ -50,8 +50,8 @@ const Skills = () => {
   }
 
   return (
-    <div className="w-full">
-      <div className="container mx-auto px-20 py-10">
+    <div id='skills' className="w-full">
+      <div className="container mx-auto px-20 pt-20 pb-10">
         <div className='mb-16'>
           <h1 className='w-2/4 text-center mx-auto py-2 text-2xl rounded font-bold bg-white text-gray-900'>SKILLS</h1>
         </div> 
