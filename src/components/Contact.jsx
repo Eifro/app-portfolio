@@ -28,13 +28,13 @@ const Contact = () => {
             <div>
               <h1 className='font-bold text-xl mb-5'>Social</h1>
               <div className='flex gap-8'>
-                <a href='https://www.linkedin.com/in/miguel-espiritu/' className='flex gap-3 duration-500 hover:scale-125 hover:text-blue-600'>
+                <a href='https://www.linkedin.com/in/miguel-espiritu/' target='_blank' className='flex gap-3 duration-500 hover:scale-125 hover:text-blue-600'>
                   <AiOutlineLinkedin size={30} />
                 </a>
-                <a href='https://github.com/Eifro' className='flex gap-3 duration-500 hover:scale-125 hover:text-gray-600'>
+                <a href='https://github.com/Eifro' target='_blank' className='flex gap-3 duration-500 hover:scale-125 hover:text-gray-600'>
                   <AiOutlineGithub size={30} />
                 </a>
-                <a href='https://www.youtube.com/channel/UCzDUIsTO9ech6VPK3Vuh1og' className='flex gap-3 duration-500 hover:scale-125 hover:text-red-600'>
+                <a href='https://www.youtube.com/c/Codxut' target='_blank' className='flex gap-3 duration-500 hover:scale-125 hover:text-red-600'>
                   <AiOutlineYoutube size={30} />
                 </a>
               </div>
