@@ -3,6 +3,7 @@ import { BiLink } from 'react-icons/bi'
 import AppWeather from '../assets/img/app-weather.png';
 import AppBusiness from '../assets/img/app-business.png';
 import AppImc from '../assets/img/app-imc.png';
+import AppBibliotech from '../assets/img/app-bibliotech.png';
 
 const Works = () => {
   const works = [
@@ -16,7 +17,7 @@ const Works = () => {
     },
     {
       title: 'DATA.B',
-      name: 'SITEWEB DATA PRACTICE',
+      name: 'SITE WEB DATA PRACTICE',
       img: AppBusiness,
       github: 'https://github.com/Eifro/website-practice',
       link: 'https://databusiness.vercel.app/',
@@ -29,6 +30,14 @@ const Works = () => {
       github: 'https://github.com/Eifro/calculadora-imc',
       link: 'https://calcula2imc.000webhostapp.com/',
       description: 'Aplicación web desarrollada para poder calcular el peso ponderal IMC de una persona tan solo ingresando sus datos como el peso y altura.',
+    },
+    {
+      title: 'BIBLIOTECH',
+      name: 'SITE WEB OF BOOKS',
+      img: AppBibliotech,
+      github: '',
+      link: 'http://afros.byethost32.com/',
+      description: 'Sitio web de libros, con el fin de que sean descargados libremente o por medio de un código brindado al usuario que se registre.',
     },
   ]
 
